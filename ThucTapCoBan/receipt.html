@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECEIPT</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="./javaScript/receiptScript.js"></script>
+    <div class="receipt">
+        <div class="headReceipt">
+            <a class="backButton" href="inventoryManagement.html">◀</a>
+            <p class="headReceiptLabel">RECEIPT</p>
+        </div>
+        <div class="bodyReceipt">
+            <table class="receiptTable">
+                <tr class="headerCell">
+                    <th class="idReceiptHeaderCell">ID</th>
+                    <th class="userNameReceiptHeaderCell">USER NAME</th>
+                    <th class="quantityReceiptHeaderCell">QUANTITY</th>
+                    <th class="totalReceiptHeaderCell">TOTAL</th>
+                    <th class="createAtReceiptHeaderCell">CREATED AT</th>
+                </tr>
+            </table>
+        </div>
+        <div id="popupReceiptDetail" class="popupReceiptDetail">
+            <div class="allReceiptDetail">
+                <div class="headAllReceiptDetail">
+                    <a class="backButton" href="receipt.html">◀</a>
+                    <p class="headAllReceiptDetailLabel"></p>
+                </div>
+                <div class="bodyAllReceiptDetail">
+                    <table class="allReceiptDetailTable">
+                        <tr class="headerAllReceiptDetailCell">
+                            <th class="idAllReceiptDetailHeaderCell">ID</th>
+                            <th class="idReceiptAllReceiptDetailHeaderCell">ID RECEIPT</th>
+                            <th class="idProductAllReceiptDetailHeaderCell">ID PRODUCT</th>
+                            <th class="nameAllReceiptDetailHeaderCell">NAME</th>
+                            <th class="idCategoryAllReceiptDetailHeaderCell">ID CATEGORY</th>
+                            <th class="priceInputAllReceiptDetailHeaderCell">PRICE INPUT</th>
+                            <th class="priceOutputAllReceiptDetailHeaderCell">PRICE OUTPUT</th>
+                            <th class="quantityAllReceiptDetailHeaderCell">QUANTITY</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <div id="popupSearchReceipt" class="popupSearchReceipt">
+            <div class="searchReceipt">
+                <a class="backButton" href="receipt.html">◀</a>
+                <p class="searchReceiptLabel">SEARCH</p>
+                <p class="searchReceiptTb"><input type="text" id="searchReceiptTb" oninput="displaySearchReceipt()">
+                </p>
+            </div>
+        </div>
+        <div class="allReceiptButton">
+            <a href="addReceipt.html">
+                <div class="addReceiptButton">ADD RECEIPT</div>
+            </a>
+            <a href="allReceiptDetail.html">
+                <div class="allReceiptDetailButton">ALL RECEIPT DETAIL</div>
+            </a>
+            <div class="searchReceiptButton" onclick="showPopupSearchReceipt()">SEARCH RECEIPT</div>
+        </div>
+    </div>
+</body>
+
+</html>

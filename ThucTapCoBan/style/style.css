@@ -1,0 +1,1100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* -------------------------inventoryManagement------------------------- */
+.inventoryManagement {
+    width: 408px;
+}
+
+.headInventoryManagementLabel {
+    width: 408px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: -4px;
+    background-color: #00B3FF;
+    float: left;
+}
+
+.headInventoryManagement {
+    color: rgb(255, 255, 255);
+    margin: 4px;
+
+}
+
+.bodyInventoryManagement {
+    width: 404px;
+    height: 75px;
+    background-color: #F0EDED;
+    float: left;
+    border: 2px solid #00B3FF;
+}
+
+.productButton {
+    width: 120px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    color: #2391C0;
+
+}
+
+.productButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+.receiptButton {
+    width: 120px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+    font-size: 15px;
+    text-align: center;
+    color: #2391C0;
+
+}
+
+.receiptButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+.addButton_1 {
+    width: 120px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+}
+
+.addButton {
+    width: 120px;
+    height: 20px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+}
+
+
+
+/* -------------------------product------------------------- */
+.product {
+    width: 400px;
+}
+
+.headProduct {
+
+    margin: 4px;
+
+}
+
+.backButton {
+    width: 23px;
+    background-color: #00B3FF;
+    height: 21px;
+    margin-left: -4px;
+    padding-left: 7px;
+    padding-top: 4px;
+    color: white;
+    float: left;
+    text-decoration: none;
+}
+
+.backButton:hover {
+    color: #eeb741;
+}
+
+.headProductLabel {
+    width: 374px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: -8px;
+    background-color: #00B3FF;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.bodyProduct {
+    width: 400px;
+    background-color: #F0EDED;
+    float: left;
+    border: 2px solid #00B3FF;
+}
+
+.table {
+    height: 20px;
+    width: 400px;
+    margin-top: 0px;
+    float: left;
+    /* border-bottom: 2px solid #00B3FF; */
+}
+
+
+.idHeaderCell {
+    font-size: 9px;
+    width: 55px;
+    height: 15px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    margin-left: -5px;
+}
+
+.nameHeaderCell {
+    font-size: 9px;
+    width: 110px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.idCategoryHeaderCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.priceInputHeaderCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.priceOutputHeaderCell {
+    font-size: 9px;
+    width: 90px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+}
+
+/* .headerCell {
+    border-bottom: 2px solid #00B3FF;
+} */
+.idDataCell {
+    font-size: 9px;
+    width: 55px;
+    height: 15px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    margin-left: -5px;
+    padding-left: 4px;
+}
+
+.nameDataCell {
+    font-size: 9px;
+    width: 110px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.idCategoryDataCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.priceInputDataCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.priceOutputDataCell {
+    font-size: 9px;
+    width: 90px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.allProductButton {
+    width: 404px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.chanceProductDetailButton {
+    width: 130px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+    color: #2391C0;
+    font-size: 9px;
+    text-align: center;
+}
+
+.chanceProductDetailButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+.productInventoryButton {
+    width: 120px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-top: 5px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+    color: #2391C0;
+    font-size: 9px;
+    text-align: center;
+}
+
+.productInventoryButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+.addProductButton {
+    width: 90px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-top: 5px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+    color: #2391C0;
+    font-size: 9px;
+    text-align: center;
+}
+
+.addProductButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+.addProduct {
+    width: 404px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+#idChanceProductTb {
+    width: 55px;
+    height: 15px;
+    padding-left: 3px;
+    border: 1px solid #00B3FF;
+    box-sizing: border-box;
+    font-size: 9px;
+}
+
+#idChanceProductTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#nameChanceProductTb {
+    width: 110px;
+    border: 1px solid #00B3FF;
+    font-size: 9px;
+    height: 15px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+#nameChanceProductTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#idCategoryChanceProductTb {
+    width: 80px;
+    border: 1px solid #00B3FF;
+    font-size: 9px;
+    height: 15px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+#idCategoryChanceProductTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#priceInputChanceProductTb {
+    width: 80px;
+    border: 1px solid #00B3FF;
+    font-size: 9px;
+    height: 15px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+#priceInputChanceProductTb:focus {
+    outline: 1px solid #00B3FF;
+
+}
+
+#priceOutputChanceProductTb {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+.chanceProduct {
+    width: 404px;
+    float: left;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.chanceProductButton {
+    width: 90px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding-top: 5px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+    color: #2391C0;
+    font-size: 9px;
+    text-align: center;
+}
+
+.chanceProductButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+#idAddProductTb {
+    width: 55px;
+    height: 15px;
+    padding-left: 3px;
+    border: 1px solid #00B3FF;
+    box-sizing: border-box;
+    font-size: 9px;
+}
+
+#idAddProductTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#nameAddProductTb {
+    width: 110px;
+    border: 1px solid #00B3FF;
+    font-size: 9px;
+    height: 15px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+#nameAddProductTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#idCategoryAddProductTb {
+    width: 80px;
+    border: 1px solid #00B3FF;
+    font-size: 9px;
+    height: 15px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+#idCategoryAddProductTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#priceInputAddProductTb {
+    width: 80px;
+    border: 1px solid #00B3FF;
+    font-size: 9px;
+    height: 15px;
+    padding-left: 3px;
+    box-sizing: border-box;
+}
+
+#priceInputAddProductTb:focus {
+    outline: 1px solid #00B3FF;
+
+}
+
+#priceOutputAddProductTb {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-top: 5px;
+}
+
+/* --------------------------- */
+.receipt {
+    width: 400px;
+}
+
+.headReceipt {
+
+    margin: 4px;
+
+}
+
+.headReceiptLabel {
+    width: 374px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: -8px;
+    background-color: #00B3FF;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.bodyReceipt {
+    width: 400px;
+    background-color: #F0EDED;
+    float: left;
+    border: 2px solid #00B3FF;
+}
+
+.receiptTable {
+    height: 20px;
+    width: 400px;
+    margin-top: 0px;
+    float: left;
+    /* border-bottom: 2px solid #00B3FF; */
+}
+
+
+.idReceiptHeaderCell {
+    font-size: 9px;
+    width: 55px;
+    height: 15px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    margin-left: -5px;
+}
+
+.userNameReceiptHeaderCell {
+    font-size: 9px;
+    width: 100px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.quantityReceiptHeaderCell {
+    font-size: 9px;
+    width: 50px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.totalReceiptHeaderCell {
+    font-size: 9px;
+    width: 50px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.createAtReceiptHeaderCell {
+    font-size: 9px;
+    width: 95px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+}
+
+.idReceiptDataCell {
+    font-size: 9px;
+    width: 55px;
+    height: 15px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    margin-left: -5px;
+    padding-left: 4px;
+}
+
+.idReceiptDataCell:hover {
+    background-color: #86d8fc;
+    border-right: 1px solid #ed6b38;
+    border-bottom: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+.userNameReceiptDataCell {
+    font-size: 9px;
+    width: 100px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.quantityReceiptDataCell {
+    font-size: 9px;
+    width: 50px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.totalReceiptDataCell {
+    font-size: 9px;
+    width: 50px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.createdAtReceiptDataCell {
+    font-size: 9px;
+    width: 95px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.allReceiptButton {
+    display: block;
+    width: 404px;
+    float: left;
+    padding-bottom: 5px;
+}
+
+.addReceiptButton {
+    width: 75px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-top: 5px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+    color: #2391C0;
+    font-size: 9px;
+    text-align: center;
+}
+
+.addReceiptButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+
+.allReceiptDetailButton {
+    width: 107px;
+    height: 15px;
+    margin-top: 5px;
+    margin-left: 57px;
+    padding-top: 5px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: left;
+    color: #2391C0;
+    font-size: 9px;
+    text-align: center;
+}
+
+.allReceiptDetailButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+.searchReceiptButton {
+    width: 90px;
+    height: 15px;
+    margin-top: 5px;
+    margin-right: 10px;
+    padding-top: 5px;
+    background-color: #9FE2FF;
+    border: 1px solid #00B3FF;
+    border-radius: 10px;
+    float: right;
+    color: #2391C0;
+    font-size: 9px;
+    text-align: center;
+}
+
+.searchReceiptButton:hover {
+    background-color: #86d8fc;
+    border: 1px solid #ed6b38;
+    color: #ed6b38;
+}
+
+/* ------------------------------------- */
+.allReceiptDetail {
+    width: 525px;
+}
+
+.headAllReceiptDetail {
+
+    margin: 4px;
+
+}
+
+.headAllReceiptDetailLabel {
+    width: 499px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: -8px;
+    background-color: #00B3FF;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.bodyAllReceiptDetail {
+    width: 525px;
+    background-color: #F0EDED;
+    float: left;
+    border: 2px solid #00B3FF;
+}
+
+.allReceiptDetailTable {
+    height: 20px;
+    width: 525px;
+    margin-top: 0px;
+    float: left;
+    /* border-bottom: 2px solid #00B3FF; */
+}
+
+.headerAllReceiptDetailCell {
+    width: 400px;
+}
+
+.idAllReceiptDetailHeaderCell {
+    font-size: 9px;
+    width: 30px;
+    height: 15px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    margin-left: -5px;
+}
+
+.idAllReceiptDetailDataCell {
+    font-size: 9px;
+    width: 26px;
+    height: 15px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    margin-left: -5px;
+    padding-left: 4px;
+}
+
+.idReceiptAllReceiptDetailHeaderCell {
+    font-size: 9px;
+    width: 60px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.idReceiptAllReceiptDetailDataCell {
+    font-size: 9px;
+    width: 56px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.idProductAllReceiptDetailHeaderCell {
+    font-size: 9px;
+    width: 65px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.idProductAllReceiptDetailDataCell {
+    font-size: 9px;
+    width: 61px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.nameAllReceiptDetailHeaderCell {
+    font-size: 9px;
+    width: 90px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.nameAllReceiptDetailDataCell {
+    font-size: 9px;
+    width: 86px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.idCategoryAllReceiptDetailHeaderCell {
+    font-size: 9px;
+    width: 70px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+}
+
+.idCategoryAllReceiptDetailDataCell {
+    font-size: 9px;
+    width: 66px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.priceInputAllReceiptDetailHeaderCell {
+    font-size: 9px;
+    width: 65px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+}
+
+.priceInputAllReceiptDetailDataCell {
+    font-size: 9px;
+    width: 61px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.priceOutputAllReceiptDetailHeaderCell {
+    font-size: 9px;
+    width: 75px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+}
+
+.priceOutputAllReceiptDetailDataCell {
+    font-size: 9px;
+    width: 71px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.quantityAllReceiptDetailHeaderCell {
+    font-size: 9px;
+    width: 60px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+}
+
+.quantityAllReceiptDetailDataCell {
+    font-size: 9px;
+    width: 56px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+/* ------------------------- */
+.productInventory {
+    width: 480px;
+}
+
+.headProductInventory {
+
+    margin: 4px;
+
+}
+
+
+.headProductLabelInventory {
+    width: 454px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    margin-right: -8px;
+    background-color: #00B3FF;
+    color: rgb(255, 255, 255);
+    float: right;
+}
+
+.bodyProductInventory {
+    width: 480px;
+    background-color: #F0EDED;
+    float: left;
+    border: 2px solid #00B3FF;
+}
+
+.tableProductInventory {
+    height: 20px;
+    width: 480px;
+    margin-top: 0px;
+    float: left;
+    /* border-bottom: 2px solid #00B3FF; */
+}
+
+
+.idProductInventoryHeaderCell {
+    font-size: 9px;
+    width: 55px;
+    height: 15px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    margin-left: -5px;
+}
+
+.nameProductInventoryHeaderCell {
+    font-size: 9px;
+    width: 110px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.idCategoryProductInventoryHeaderCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.priceInputProductInventoryHeaderCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.quantityProductInventoryHeaderCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+}
+
+.priceOutputProductInventoryHeaderCell {
+    font-size: 9px;
+    width: 90px;
+    border-bottom: 1px solid #00B3FF;
+    border-right: 1px solid #00B3FF;
+}
+
+/* .headerCell {
+    border-bottom: 2px solid #00B3FF;
+} */
+.idProductInventoryDataCell {
+    font-size: 9px;
+    width: 55px;
+    height: 15px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    margin-left: -5px;
+    padding-left: 4px;
+}
+
+.nameProductInventoryDataCell {
+    font-size: 9px;
+    width: 110px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.idCategoryProductInventoryDataCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.priceInputProductInventoryDataCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.quantityProductInventoryDataCell {
+    font-size: 9px;
+    width: 80px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+.priceOutputProductInventoryDataCell {
+    font-size: 9px;
+    width: 90px;
+    border-right: 1px solid #00B3FF;
+    border-bottom: 1px solid #00B3FF;
+    padding-left: 4px;
+}
+
+#searchReceiptTb {
+    padding-top: 3px;
+    width: 100px;
+    font-size: 12px;
+    outline: 1px solid #00B3FF;
+    border-color: #00B3FF
+}
+
+#searchReceiptTb:focus {
+    outline: 2px solid #ed6b38;
+}
+
+/* ------------------------ */
+#idAddReceiptTb {
+    font-size: 9px;
+    height: 15px;
+    width: 55px;
+    padding-left: 3px;
+    border: 1px solid #00B3FF;
+    box-sizing: border-box;
+}
+
+#idAddReceiptTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#userNameAddReceiptTb {
+    font-size: 9px;
+    height: 15px;
+    width: 100px;
+    padding-left: 3px;
+    border: 1px solid #00B3FF;
+    box-sizing: border-box;
+}
+
+#userNameAddReceiptTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#quantityAddReceiptTb {
+    font-size: 9px;
+    height: 15px;
+    width: 55px;
+    padding-left: 3px;
+    border: 1px solid #00B3FF;
+    box-sizing: border-box;
+}
+
+#quantityAddReceiptTb:focus {
+    outline: 1px solid #00B3FF;
+}
+
+#totalReceiptAddReceiptTb {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-top: 5px;
+    width: 65px;
+}
+
+#createAtAddReceiptTb {
+    font-size: 10px;
+    padding-left: 3px;
+    padding-top: 5px;
+    width: 110px;
+}
+
+.addReceiptTable {
+    height: 20px;
+    width: 400px;
+    margin-top: 0px;
+    float: left;
+    /* border-bottom: 2px solid #00B3FF; */
+}
+
+/* ----------------- */
+body {
+    margin-top: 0;
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ----------------- */
+.popupReceiptDetail {
+    display: none;
+    position: fixed;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: 530px;
+}
+
+.popupSearchReceipt {
+    display: none;
+    position: fixed;
+    margin-top: 50px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    width: 300px;
+}
+
+
+.searchReceipt {
+    width: 300px;
+    margin: 4px;
+
+}
+
+.searchReceiptLabel {
+    width: 100px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #00B3FF;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.searchReceiptTb {
+    width: 174px;
+    height: 25px;
+    font-size: 20px;
+    text-align: center;
+    background-color: #00B3FF;
+    color: rgb(255, 255, 255);
+    float: left;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}

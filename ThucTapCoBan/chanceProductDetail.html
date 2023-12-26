@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CHANCE PRODUCT DETAIL</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="./javaScript/chanceProductDetailScript.js"></script>
+    <div class="product">
+        <div class="headProduct">
+            <a class="backButton" href="product.html">◀</a>
+            <p class="headProductLabel">CHANCE PRODUCT DETAIL</p>
+        </div>
+        <div class="bodyProduct">
+            <table class="table">
+                <tr class="headerCell">
+                    <th class="idHeaderCell">ID</th>
+                    <th class="nameHeaderCell">NAME</th>
+                    <th class="idCategoryHeaderCell">ID CATEGORY</th>
+                    <th class="priceInputHeaderCell">PRICE INPUT</th>
+                    <th class="priceOutputHeaderCell">PRICE OUTPUT</th>
+                </tr>
+                <tr class="dataCell">
+                    <td><input type="text" id="idChanceProductTb" oninput="displayDetailOutput()"></td>
+                    <td><input type="text" id="nameChanceProductTb"></td>
+                    <td><input type="text" id="idCategoryChanceProductTb"></td>
+                    <td><input type="text" id="priceInputChanceProductTb" oninput="displayPriceOutput()"></td>
+                    <td id="priceOutputChanceProductTb"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="chanceProduct">
+            <div class="chanceProductButton" onclick="chanceProduct()">CHANCE</div>
+        </div>
+    </div>
+</body>
+
+</html>

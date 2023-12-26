@@ -1,0 +1,86 @@
+{
+  "SP01": {
+    "name": "Pepsi",
+    "idCategory": "Water",
+    "priceInput": 9000,
+    "priceOutput": 12600
+  },
+  "SP02": {
+    "name": "Coca",
+    "idCategory": "Water",
+    "priceInput": 8500,
+    "priceOutput": 11900
+  },
+  "SP03": {
+    "name": "Trà xanh C2",
+    "idCategory": "Water",
+    "priceInput": 7000,
+    "priceOutput": 9800
+  },
+  "SP04": {
+    "name": "Snack Khoai tây",
+    "idCategory": "Food",
+    "priceInput": 5000,
+    "priceOutput": 7000
+  },
+  "SP05": {
+    "name": "Bánh tráng",
+    "idCategory": "Food",
+    "priceInput": 6000,
+    "priceOutput": 8400
+  },
+  "SP06": {
+    "name": "Kẹo Chupa Chups",
+    "idCategory": "Candy",
+    "priceInput": 2000,
+    "priceOutput": 2800
+  },
+  "SP07": {
+    "name": "Trà xanh 0 độ",
+    "idCategory": "Water",
+    "priceInput": 9000,
+    "priceOutput": 12600
+  },
+  "SP08": {
+    "name": "Sting dâu",
+    "idCategory": "Water",
+    "priceInput": 8000,
+    "priceOutput": 11200
+  },
+  "SP09": {
+    "name": "Number 1",
+    "idCategory": "Water",
+    "priceInput": 9500,
+    "priceOutput": 13300
+  },
+  "SP10": {
+    "name": "Snack Rong biển",
+    "idCategory": "Food",
+    "priceInput": 6000,
+    "priceOutput": 8400
+  },
+  "SP11": {
+    "name": "Bia Heineken",
+    "idCategory": "Alcoholic beverage",
+    "priceInput": 9500,
+    "priceOutput": 13300
+  },
+  "SP12": {
+    "name": "Bánh gạo",
+    "idCategory": "Food",
+    "priceInput": 35000,
+    "priceOutput": 49000
+  },
+  "SP13": {
+    "name": "Fanta",
+    "idCategory": "Water",
+    "priceInput": 8000,
+    "priceOutput": 11200
+  },
+  "SP14": {
+    "name": "Bánh Choco-pie",
+    "idCategory": "Food",
+    "priceInput": 30000,
+    "priceOutput": 42000
+  }
+}

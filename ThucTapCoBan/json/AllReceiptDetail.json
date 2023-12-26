@@ -1,0 +1,74 @@
+{
+    "1": {
+        "idReceipt": "PNK01",
+        "idProduct": "SP01",
+        "name": "Pepsi",
+        "idCategory": "Water",
+        "priceInput": 45000,
+        "priceOutput": 63000,
+        "quantity": 5
+    },
+    "2": {
+        "idReceipt": "PNK01",
+        "idProduct": "SP02",
+        "name": "Coca",
+        "idCategory": "Water",
+        "priceInput": 59500,
+        "priceOutput": 83300,
+        "quantity": 7
+    },
+    "3": {
+        "idReceipt": "PNK01",
+        "idProduct": "SP03",
+        "name": "Trà xanh C2",
+        "idCategory": "Water",
+        "priceInput": 21000,
+        "priceOutput": 29400,
+        "quantity": 3
+    },
+    "4": {
+        "idReceipt": "PNK01",
+        "idProduct": "SP04",
+        "name": "Snack Khoai tây",
+        "idCategory": "Food",
+        "priceInput": 45000,
+        "priceOutput": 63000,
+        "quantity": 9
+    },
+    "5": {
+        "idReceipt": "PNK01",
+        "idProduct": "SP05",
+        "name": "Bánh tráng",
+        "idCategory": "Food",
+        "priceInput": 600000,
+        "priceOutput": 840000,
+        "quantity": 100
+    },
+    "6": {
+        "idReceipt": "PNK01",
+        "idProduct": "SP03",
+        "name": "Trà xanh C2",
+        "idCategory": "Water",
+        "priceInput": 210000,
+        "priceOutput": 294000,
+        "quantity": 30
+    },
+    "7": {
+        "idReceipt": "PNK02",
+        "idProduct": "SP01",
+        "name": "Pepsi",
+        "idCategory": "Water",
+        "priceInput": 90000,
+        "priceOutput": 126000,
+        "quantity": 10
+    },
+    "8": {
+        "idReceipt": "PNK02",
+        "idProduct": "SP02",
+        "name": "Coca",
+        "idCategory": "Water",
+        "priceInput": 102000,
+        "priceOutput": 142800,
+        "quantity": 12
+    }
+}

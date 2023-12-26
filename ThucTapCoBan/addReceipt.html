@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD RECEIPT</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="./javaScript/addReceiptScript.js"></script>
+    <div class="receipt">
+        <div class="headReceipt">
+            <a class="backButton" href="receipt.html">◀</a>
+            <p class="headReceiptLabel">ADD RECEIPT</p>
+        </div>
+        <div class="bodyReceipt">
+            <table class="addReceiptTable">
+                <tr class="headerCell">
+                    <th class="idReceiptHeaderCell">ID</th>
+                    <th class="userNameReceiptHeaderCell">USER NAME</th>
+                    <th class="quantityReceiptHeaderCell">QUANTITY</th>
+                    <th class="totalReceiptHeaderCell">TOTAL</th>
+                    <th class="createAtReceiptHeaderCell">CREATED AT</th>
+                </tr>
+                <tr class="dataCell">
+                    <td><input type="text" id="idAddReceiptTb" oninput="displayCreatedAt()"></td>
+                    <td><input type="text" id="userNameAddReceiptTb" oninput="displayCreatedAt()"></td>
+                    <td><input type="text" id="quantityAddReceiptTb" oninput="displayCreatedAt()"></td>
+                    <td id="totalReceiptAddReceiptTb"></td>
+                    <td id="createAtAddReceiptTb"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="addProduct">
+            <div class="addProductButton" onclick="addProduct()">ADD RECEIPT</div>
+        </div>
+    </div>
+</body>
+
+</html>

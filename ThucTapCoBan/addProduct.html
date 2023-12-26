@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ADD PRODUCT</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <script src="https://code.jquery.com/jquery-2.1.0.js"></script>
+    <script src="./javaScript/addProductScript.js"></script>
+    <div class="product">
+        <div class="headProduct">
+            <a class="backButton" href="product.html">◀</a>
+            <p class="headProductLabel">ADD PRODUCT</p>
+        </div>
+        <div class="bodyProduct">
+            <table class="table">
+                <tr class="headerCell">
+                    <th class="idHeaderCell">ID</th>
+                    <th class="nameHeaderCell">NAME</th>
+                    <th class="idCategoryHeaderCell">ID CATEGORY</th>
+                    <th class="priceInputHeaderCell">PRICE INPUT</th>
+                    <th class="priceOutputHeaderCell">PRICE OUTPUT</th>
+                </tr>
+                <tr class="dataCell">
+                    <td><input type="text" id="idAddProductTb"></td>
+                    <td><input type="text" id="nameAddProductTb"></td>
+                    <td><input type="text" id="idCategoryAddProductTb"></td>
+                    <td><input type="text" id="priceInputAddProductTb" oninput="displayPriceOutput()"></td>
+                    <td id="priceOutputAddProductTb"></td>
+                </tr>
+            </table>
+        </div>
+        <div class="addProduct">
+            <div class="addProductButton" onclick="addProduct()">ADD PRODUCT</div>
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+{
+    "PNK01": {
+        "userName": "Tran Van A",
+        "quantity": 154,
+        "total": "980500",
+        "createdAt": "10/02/2022 2:30PM"
+    },
+    "PNK02": {
+        "userName": "Nguyen Thi Leo",
+        "quantity": 22,
+        "total": "192000",
+        "createdAt": "15/02/2023 8:30AM"
+    }
+}
